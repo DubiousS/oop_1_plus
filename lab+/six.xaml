@@ -1,0 +1,27 @@
+﻿<Window x:Class="lab_.six"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab_"
+        mc:Ignorable="d"
+        Title="six" Height="300" Width="300">
+    <Grid>
+        <Menu HorizontalAlignment="Left" Height="21" Margin="10,10,0,0" VerticalAlignment="Top" Width="32">
+            <MenuItem Header="FILE" Height="21">
+                <MenuItem x:Name="open" Header="Open" Click="open_Click"/>
+                <MenuItem x:Name="save" Header="Save" Click="save_Click"/>
+            </MenuItem>
+        </Menu>
+        <TextBox x:Name="TextFile" HorizontalAlignment="Left" Height="110" Margin="10,92,0,0" TextWrapping="Wrap" Text="Файл не выбран" VerticalAlignment="Top" Width="272"/>
+        <TextBlock x:Name="pathF" HorizontalAlignment="Left" Margin="10,57,0,0" TextWrapping="Wrap" Text="Путь к файлу" VerticalAlignment="Top" Width="272" Height="30"/>
+        <TextBlock x:Name="NameF" HorizontalAlignment="Left" Margin="10,36,0,0" TextWrapping="Wrap" Text="Имя файла" VerticalAlignment="Top" Width="272"/>
+        <Button x:Name="button1" Content="1" Margin="32,230,228,10" Click="Button"/>
+        <Button x:Name="button2" Content="2" Margin="72,230,188,10" Click="Button"/>
+        <Button x:Name="button3" Content="3" Margin="111,230,149,10" Click="Button"/>
+        <Button x:Name="button4" Content="4" Margin="151,230,109,10" Click="Button"/>
+        <Button x:Name="button5" Content="5" Margin="189,230,71,10" Click="Button"/>
+        <Button x:Name="button6" Content="6" Margin="229,230,31,10" Click="Button"/>
+
+    </Grid>
+</Window>

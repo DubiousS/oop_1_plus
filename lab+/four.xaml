@@ -1,0 +1,22 @@
+﻿<Window x:Class="lab_.four"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab_"
+        mc:Ignorable="d"
+        Title="four" Height="300" Width="300">
+    <Grid>
+        <ComboBox x:Name="years" HorizontalAlignment="Left" Margin="84,10,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="years_SelectionChanged"/>
+        <ComboBox x:Name="month" HorizontalAlignment="Left" Margin="84,37,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="month_SelectionChanged"/>
+        <ComboBox x:Name="days" HorizontalAlignment="Left" Margin="84,64,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="days_SelectionChanged"/>
+        <TextBlock x:Name="result" HorizontalAlignment="Left" Margin="84,91,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="49" Width="120"/>
+        <Button x:Name="button1" Content="1" Margin="32,230,228,10" Click="Button"/>
+        <Button x:Name="button2" Content="2" Margin="72,230,188,10" Click="Button"/>
+        <Button x:Name="button3" Content="3" Margin="111,230,149,10" Click="Button"/>
+        <Button x:Name="button4" Content="4" Margin="151,230,109,10" Click="Button"/>
+        <Button x:Name="button5" Content="5" Margin="189,230,71,10" Click="Button"/>
+        <Button x:Name="button6" Content="6" Margin="229,230,31,10" Click="Button"/>
+
+    </Grid>
+</Window>

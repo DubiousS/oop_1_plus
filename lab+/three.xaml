@@ -1,0 +1,30 @@
+﻿<Window x:Class="lab_.three"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab_"
+        mc:Ignorable="d"
+        Title="three" Height="300" Width="300">
+    <Grid>
+        <ListBox x:Name="list_planets" HorizontalAlignment="Left" Height="191" VerticalAlignment="Top" Width="101" SelectionChanged="list_planets_SelectionChanged" IsSynchronizedWithCurrentItem="False" Margin="150,26,0,0">
+            <ListBoxItem Content="Солнце"/>
+            <ListBoxItem Content="Меркурий"/>
+            <ListBoxItem Content="Венера"/>
+            <ListBoxItem Content="Земля"/>
+            <ListBoxItem Content="Марс"/>
+            <ListBoxItem Content="Юпитер"/>
+            <ListBoxItem Content="Сатурн"/>
+            <ListBoxItem Content="Уран"/>
+            <ListBoxItem Content="Нептун"/>
+        </ListBox>
+        <TextBlock x:Name="PlanetInfo" HorizontalAlignment="Left" Height="193" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" Margin="41,24,0,0"><Run Text="Ничего не выбрано."/></TextBlock>
+        <Button x:Name="button1" Content="1" Margin="36,230,224,10" Click="Button"/>
+        <Button x:Name="button2" Content="2" Margin="76,230,184,10" Click="Button"/>
+        <Button x:Name="button3" Content="3" Margin="115,230,145,10" Click="Button"/>
+        <Button x:Name="button4" Content="4" Margin="155,230,105,10" Click="Button"/>
+        <Button x:Name="button5" Content="5" Margin="193,230,67,10" Click="Button"/>
+        <Button x:Name="button6" Content="6" Margin="233,230,27,10" Click="Button"/>
+
+    </Grid>
+</Window>
